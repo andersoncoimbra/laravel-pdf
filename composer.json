@@ -12,21 +12,21 @@
     },
     "autoload": {
         "psr-4": {
-            "niklasravnsborg\\LaravelPdf\\": "src/LaravelPdf"
+            "andersoncoimbra\\LaravelPdf\\": "src/LaravelPdf"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "niklasravnsborg\\LaravelPdf\\Test\\": "tests/"
+            "andersoncoimbra\\LaravelPdf\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "niklasravnsborg\\LaravelPdf\\PdfServiceProvider"
+                "andersoncoimbra\\LaravelPdf\\PdfServiceProvider"
             ],
             "aliases": {
-                "PDF": "niklasravnsborg\\LaravelPdf\\Facades\\Pdf"
+                "PDF": "andersoncoimbra\\LaravelPdf\\Facades\\Pdf"
             }
         }
     },
